@@ -8,3 +8,13 @@ body {
   background: linear-gradient(#12a7f9, #008aef);
   overflow: hidden;
 }
+
+.snowflake {
+  height: 200px;
+  width: 200px;
+  position: absolute;
+  background-image: none;
+  background-size: cover;
+  border-radius: 50px;
+  animation: fall 2s linear infinite;
+}
