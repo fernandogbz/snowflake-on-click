@@ -9,4 +9,12 @@ document.addEventListener("click", (e) =>{
 
   // Select random number between 20 and 100
   var size = Math.random() * (100 - 20 + 1) + 20;
+
+  // Set width and height
+  snowflake.style.width = size + "px";
+  snowflake.style.height = size + "px";
+  document.body.appendChild(snowflake);
+  setTimeout(() => {
+    snowflake.remove();
+  }, 2000);
 });
