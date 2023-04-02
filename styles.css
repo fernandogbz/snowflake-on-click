@@ -11,7 +11,7 @@ body {
 
 .snowflake {
   position: absolute;
-  background-image: none;
+  background-image: url(snowflake-image.svg);
   background-size: cover;
   border-radius: 50px;
   animation: fall 2s linear infinite;
